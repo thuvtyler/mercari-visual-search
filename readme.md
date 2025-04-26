@@ -11,3 +11,4 @@
 - UI built with React + Tailwind styled to feel like SSENSE
 - Backend powered by Flask, Python, and Playwright
 
+![App Preview](./preview.png)
