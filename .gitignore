@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Frontend
+client/node_modules/
+client/dist/
+
+# Data files
+images/
+mercari_listings.json
+clip_embeddings.npz
+
+# Environment
+.env
+.DS_Store
+
+# OS Stuff
+Thumbs.db
