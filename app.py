@@ -5,7 +5,8 @@ from find_similar_items import find_similar_items
 from flask import send_from_directory
 
 app = Flask(__name__)
-CORS(app)  # allow requests from React
+# allow requests from React
+CORS(app)  
 
 @app.route("/api/search", methods=["POST"])
 def search():

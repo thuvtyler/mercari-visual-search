@@ -12,7 +12,8 @@ def download_mercari_images(json_path="mercari_listings.json", output_folder="im
 
     # Loop through each listing
     for item in listings:
-        item_id = item["link"].split("/")[-1]  # Extract the item ID from the URL
+        # Extract the item ID from the URL
+        item_id = item["link"].split("/")[-1]  
         image_url = item.get("image_url") or item.get("image")
         if image_url and not image_url.startswith("http"):
             print(f"Already have local image for {item_id}: {image_url}")
