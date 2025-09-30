@@ -1,0 +1,11 @@
+.git
+__pycache__
+*.pyc
+client/node_modules
+client/dist
+images
+mercari_listings.json
+clip_embeddings.npz
+clip_embeddings.npy
+.env
+.DS_Store
